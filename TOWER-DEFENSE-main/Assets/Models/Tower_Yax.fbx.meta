@@ -3,12 +3,62 @@ guid: 8d8b3b424843aaa4296d22e6b3da01f7
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: colormap103
+    second: {fileID: 2100000, guid: 21d0df1670ce6f6419d2b63642d7316d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: colormap104
+    second: {fileID: 2100000, guid: 462ea5215fc771d46935c6c003c672fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: colormap106
+    second: {fileID: 2100000, guid: 87b5f4f9bc0d13940af9bf0fd3e6c2fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: colormap107
+    second: {fileID: 2100000, guid: 752ed00be2e97764dbad1c07c1434e9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: colormap47
+    second: {fileID: 2100000, guid: 3a050eaef63fae049b9f417745576cf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: colormap49
+    second: {fileID: 2100000, guid: 5868cea17e7b7ca41bfa1be286704542, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: colormap50
+    second: {fileID: 2100000, guid: 6dc7c6298500cf548978dd17af7cc81c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: colormap51
+    second: {fileID: 2100000, guid: 2dc9789330ff2ff41998a625bc3b8a18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: colormap53
+    second: {fileID: 2100000, guid: efa33ec60a92eac45a7095e668b85380, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: colormap99
+    second: {fileID: 2100000, guid: 86455270d678c074e9bbf8fc09ec65fa, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

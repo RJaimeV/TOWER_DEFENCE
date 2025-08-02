@@ -5,30 +5,35 @@ ModelImporter:
   internalIDToNameTable: []
   externalObjects:
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ch39_Body
+    second: {fileID: 2100000, guid: 574edaf35ef2caa42b987cc3ace1fd5b, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ch39_1001_Diffuse
-    second: {fileID: 2800000, guid: 243501b84f21554428c5591861da7a91, type: 3}
+    second: {fileID: 2800000, guid: 9a91aebb24e2e8b459aea222a6a54671, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ch39_1001_Glossiness
-    second: {fileID: 2800000, guid: a6c8bfdb9799eb046a3f159c507fe1f0, type: 3}
+    second: {fileID: 2800000, guid: 99bca7ad1196a20458bcbd17cff8ae41, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ch39_1001_Normal
-    second: {fileID: 2800000, guid: 1a277fe4f82e4fc47a3863dbb605d703, type: 3}
+    second: {fileID: 2800000, guid: c77b8b8c8a7c27b4685eceab027b722c, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Ch39_1001_Specular
-    second: {fileID: 2800000, guid: 7b663f178d5a4ee40b5c2c4a41ac5587, type: 3}
+    second: {fileID: 2800000, guid: d889a37982adb2747877319be48c65a8, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

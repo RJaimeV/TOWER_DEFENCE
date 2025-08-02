@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AVIVbfH/////AAABmdRP8rkDsk7go+aNHHKNCWIuZvNJO5SEJ2Ur78amaguhKRFZ6rjrbeDeh+NuCDPY7Hhw/P+RMYnQ/e2FO/JOWHEyN9celHTsLOBahc+klhaVbD5BYm4B9nKai86n9sMCnA5tZjF0E8QkB9JJjFy+net+xY/LjFe7B/TyzEk37qo3Cp2kp2I8Nl42IS2x8r/1Sme+dk0vXbcH0essbmO+wLLNpDEyru21wc5NGMYoh8IC0c6IijU9JihVZFBWyF2fl7iyHtsPgxWeLdFTHADAFI2Y0YUfgfcMhvHwsfyjiqocwYnhvwnl6zK7z9xLE3UNb63Bo7lGbflQJPkFqvIYKo+1kb03gUdJkS9Pj2qQM3kx
-    ufoLicenseKey: QWE2UUR0Ly8vLy8vQUFBQUtGdnY3VTltYlVFUXNxN3RiM3Q2TDZBZEs5RlRUWEs4YXhHcVFTZzY0bUVwYlVUdmU3dlh0OW83cE1oLzlUMWV3YmpHTEZpTFJkSUhPeHB2RXFmSkl2MFBrV1o1TXJvRlIzTENhT0xxQmpzcnJiT1JMZWRpazQvV21aUkpOTjJ5Zzd4UTNRemJ0NmphSGNJMlR6bkMvN29nOXlaeDlBZzNZcDR2YjRWYUx4TyticDludDN4SkdEcWRZZktiSXZWVjc1UFczRUN1eFYzb2xmVTZBYmFMK3NDTWpnWlNTRVdhVWhXV0VrcmZsMWQrZ0ZsY3R5cmpMQlQvYzFJZWpsc1FiQmFxNDQwdWJUb3liOS9ac0RMbGovdUh5V3hQUDVKMzZwR3VHSDR6MG0xOXhET1pmYmZJNUpJaFdQSjBQeUU5MCtINi9tTnM2SnhiVVVzbnJXYVBjQkFISGZGQzFnWWRhWGdOZjVyQjRMUEg=
+    vuforiaLicenseKey: AZO9IbD/////AAABmbq/a3CI3k1vuGrpnvLvxG1G6LIUPkT3xLfIZILS4iKRmy88xQhBXmvwDpijwd7yD90XDHhw0aQsqJeatROTej18FmcFfZbrPRJHVEUL0pCfdzqhvtISCd4AXS2SGbC+JrCXtQCVVty9MG6ilHHTfrW5GUjRE9YVJkuiEdbOO5tVBp2KLr7uRbeogL7yDKn8otd46zOHf09GwjxrroGf8gs4IGhMOUlv7YENE3bSUNC9FdMzo1GU3YJRBX0wEWynWRvxaf1w9ZFVyAg2aJlGRcwE6NbK0RoSmhwK12CGAoeMNS40hfKvdMf16rtnUArk0D9al4ThgreIeN+5V6km3m1l2XFWji1k1JLAAqXdJqPD
+    ufoLicenseKey: QVhiM0Y1Ly8vLy8vQUFBQUtPbnFIeHJFSGs1N3VrMlg4U050eVBzK2pkOFZxMDhrazlwYjBsYS9aZUIxQlV1ckZWcWt0ZllSQWpnT2tIRlY2VzdOMDRTRjNYRUhmbTF5L1BnYlB4eWdHWEF6RUNheXowc3dyNVNYa2ozdERuRjhka1FpOHRscHdkMDcrcEJEY1FjTjNJcUM1bEgwOTYzQkdZdjRsQStRb0hSQU9nRGthelp5TlY0WHVwWU9EaE05NWw5bXAzbnBDMjM5MWZBWXBFdEdiL2loTDNab3N4b25ZblhjK1JtSS9wLzRoTDIwVGhmTXR6WFJNYkpUTXZLZzJoQ0N0TEJXNEptZ0pSOUtSdStzQWM3QjVNOWFFMGVHQ1dUT1VRSUUweEpiZC9ZL2cvS29iNDhBRXdQOGFwbWR5NmRWU0FHU2psVzRZY2FEU2Zud3J1ZHhucVNmSUZiajNTUnIzM0lKVlFIaW1rL0oyOGNFeDdyekcySXg=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
     cameraDeviceModeSetting: -1
@@ -32,12 +32,14 @@ MonoBehaviour:
   shaders:
     depthMaskShader: {fileID: 4800000, guid: 9894afa5f3a5e4bbca625981beb1b20e, type: 3}
     outlineShader: {fileID: 4800000, guid: 88d3b6b5cf364476ca39fcec255331b1, type: 3}
-    unlitTransparentShader: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
+    unlitTransparentShader: {fileID: 10750, guid: 0000000000000000f000000000000000,
+      type: 0}
   runtimeResources:
-    register: {fileID: 11400000, guid: 41fc44d3a90764cc7b50f1019f2d8310, type: 2}
+    register: {fileID: 11400000, guid: caeba6ecda451416c803389918ddea4a, type: 2}
   videoBackground:
     numDivisions: 2
-    videoBackgroundShader: {fileID: 4800000, guid: 144dfca22ac584ade9e538e24a5ddded, type: 3}
+    videoBackgroundShader: {fileID: 4800000, guid: 144dfca22ac584ade9e538e24a5ddded,
+      type: 3}
     unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
@@ -48,7 +50,8 @@ MonoBehaviour:
   playmode:
     mRecordingPath: 
     playModeType: 0
-    mSimulatorInputActionAsset: {fileID: -944628639613478452, guid: eae7022f5cfd04e8189b1f372421b225, type: 3}
+    mSimulatorInputActionAsset: {fileID: -944628639613478452, guid: eae7022f5cfd04e8189b1f372421b225,
+      type: 3}
   webcam:
     renderTextureLayer: 30
   packageInformation:
